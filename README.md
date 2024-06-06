@@ -1,7 +1,7 @@
 # Rockset Recipe: Auto-Resume/Suspend a Virtual Instance On a Custom Schedule
-This is a step-by-step guide on how to create a custom schedule for auto-resuming/suspending a Rockset [Virtual Instance](https://docs.rockset.com/documentation/docs/virtual-instances) (VI) using the Python client.
+This is a step-by-step guide on how to create a custom schedule for auto-resuming/suspending a Rockset [Virtual Instance](https://docs.rockset.com/documentation/docs/virtual-instances) (VI) using the Python client. In this recipe, we'll be creating an "analytics" VI that will be auto-resumed at 9am PT and auto-suspended at 5pm PT using [Scheduled Query Lambdas](https://docs.rockset.com/documentation/docs/query-lambdas#scheduled-query-lambdas).
 
-In this recipe, we'll be creating an "analytics" VI that will be auto-resumed at 9am PT and auto-suspended at 5pm PT using [Scheduled Query Lambdas](https://docs.rockset.com/documentation/docs/query-lambdas#scheduled-query-lambdas).
+You can copy the full Pythons script without step-by-step descriptions via the attached `python-script` file.
 
 Link to recipe on Rockset website: https://docs.rockset.com/documentation/recipes/auto-resumesuspend-vi-on-custom-schedule
 
